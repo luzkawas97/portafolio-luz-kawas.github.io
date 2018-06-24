@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+body{
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	color: #333;
+}
+header{
+	color:rgba(85,8,166,1.00);
+	background-color:#F7C6BA;
+	padding: 20px 0px;
+}
+
+#sec-intro{
+	background-color: rgba(111,173,182,1.00);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	color: rgba(85,8,166,1.00);
+	text-align: center;
+}
+.bg-intro{
+	padding: 100px 0;
+	min-height: 500px;
+	background-color: rgba(13, 70, 83, 0.78);
+}
+#sec-intro h1{
+	font-size: 50px;
+	text-transform: uppercase;
+	font-weight: bold;	
+}
+#sec-intro h3{
+	font-size: 16px;
+}
+
+.btn-medilab,
+.btn-medilab:hover{
+	background-color: rgba(111,173,182,1.00);
+	margin-top: 30px;
+}
+
+
+
+#sec-services{
+	background-color:#F7C6BA;
+	padding: 50px 0;
+}
+
+
+#sec-services h1{
+	color: rgba(124,70,212,1.00);
+	font-weight: 900;
+}
+
+#sec-services h2{
+	color: rgba(121,98,163,1.00);
+	font-size: 18px;
+	font-weight: 600;
+}
+
+#sec-contacto{
+	background-color: #F7C6BA;
+	padding: 40px 0px;
+}
+
+
+
+.icono{
+	width: 80px;
+	height: 80px;
+	line-height: 60px;
+	background-color: rgba(244,42,76,1.00);
+	color: #fff;
+	display: block;
+	text-align: center;
+	font-size: 22px;
+	font-weight: 600;
+	border-radius: 100%;
+	border: 2px solid rgba(244,42,76,1.00);
+	transition: all 0.5s ease-out; 
+}
+
+.icono:hover{
+	background-color: rgba(244,42,76,1.00);
+	cursor: pointer;
+	transition: all 0.5s ease-in-out; 
+}
+
+
+.titulo{
+	font-size: 28px;
+	color: #000;
+	text-transform: uppercase;
+	font-weight: 400;
+}
+.titulo::after{
+	content: '';
+	height: 4px;
+	background-color: #ffb737;
+	width: 60px;
+	display: block;
+	margin: 15px 0;
+}
+
+#sec-doctors{
+	padding: 20px 0;
+}
+
+#sec-doctors h1{
+	color: rgba(124,70,212,1.00);
+	font-weight: 900;
+}
+#sec-doctors h3{
+	font-weight: 600;
+}
+.borde{
+	border: 1px solid #ddd;
+	padding: 2px 5px 20px;
+	position: relative;
+}
+
+
+#map{
+	width: 100%;
+	height: 500px;
+}
+
+
+#sec-services i{
+	color:rgba(0,0,0,1.00);
+	font-size: 40px;
+	margin-bottom: 30px;
+}
+
+#sobre-mi {
+background-color: rgba(198,241,244,1.00);
+	padding: 40px 0px;
+}
+
+
+#sobre-mi h1{
+	color: rgba(124,70,212,1.00);
+	font-weight: 900;
+}
+
+#sec-contacto h1{
+	color: rgba(124,70,212,1.00);
+	font-weight: 900;
+}
+
+.carousel .item{
+	max-height: 600px; 
+}
+
+.carousel-caption{
+	padding-bottom: 15%;
+	color:#fff;
+	background-color: rgba(124,59,79,0.62);
+	
+}
+
+
+
+.info-doctor{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: rgba(18,112,87,0.80);
+	color: rgba(244,42,76,1.00);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	opacity: 0;
+	transition: all 0.4s ease-in-out;
+	z-index: 2;
+}
+
+.borde:hover .info-doctor{
+	opacity: 1;
+	transition: all 0.4s ease-in-out;
+	cursor: pointer;
+}
+
+.info-doctor .fas{
+	color: rgba(230,170,171,1.00);
+	font-size: 20px;
+}
+
+
+
+
+.cintillo{
+	position: absolute;
+	width: 100%;
+	height: 20%;
+	background-color: rgba(211,180,228,1.00);
+	bottom: 0;
+	left: 0;
+	padding: 15px;
+}
+.cintillo a{
+	color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
